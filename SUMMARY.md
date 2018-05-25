@@ -1,5 +1,4 @@
 # Table of contents
 
 * Initial page
-* [ポテパンキャンプへようこそ！](potepankyanpuheyoukoso.md)
-
+* [ポテパンキャンプへようこそ！](00_welcome.md)
