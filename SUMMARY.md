@@ -1,6 +1,6 @@
 # Table of contents
 
-* はじめに
+* [はじめに](README.md)
 * [ポテパンキャンプへようこそ！](welcome.md)
 * [課題２](assignments/02.md)
 * [課題３](assignments/03.md)
