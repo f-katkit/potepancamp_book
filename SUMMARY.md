@@ -1,7 +1,7 @@
 # Table of contents
 
 * はじめに
-* [ポテパンキャンプへようこそ！](00_welcome.md)
+* [ポテパンキャンプへようこそ！](welcome.md)
 * [課題２](assignments/02.md)
 * [課題３](assignments/03.md)
 * [課題４](assignments/04.md)
