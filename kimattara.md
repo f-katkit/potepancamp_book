@@ -37,13 +37,11 @@
 
 疑問が解決しない場合､コードを読むのがもっとも正確な理解を得られる方法です｡（コードを読み書きする力にもなります） 最初は難しいと感じるかもしれませんが､ **最終的に現場でも役立つ力になるのでオススメ** です｡
 
-1. github上でソースコードを見る  
-
+1. github上でソースコードを見る
 
    [rails](https://github.com/rails/rails)､[solidus](https://github.com/solidusio/solidus)をはじめ､ほとんどのソースコードはgithubで見ることができます｡
 
-2. アプリ内に組み込まれたgemを見る  
-
+2. アプリ内に組み込まれたgemを見る
 
    `bundle open` を使うと導入済みのgemのソースコードを見ることができます｡  
 
@@ -53,8 +51,7 @@
 
    特にsolidusを見る場合は､`solidus-core`, `solidus-frontend`, `solidus-backend`のいずれかをopenするといいでしょう｡  
 
-3. pryを使う  
-
+3. pryを使う
 
    特に `ls`､`show-source`､`show-method`といったコマンドを覚えておくと､ソースコードを追いかける時に強力です｡  
 
