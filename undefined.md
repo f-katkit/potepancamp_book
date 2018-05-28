@@ -1,7 +1,6 @@
-# よくある質問
+# ＦＡＱ
 
-行き詰った場合は "[行き詰まったら](DEADLOCK.md)" も参照してみてください｡
-またここにない話でも､slackの過去ログを掘ると解決策があるかもしれません｡
+行き詰った場合は "[行き詰まったら](kimattara.md)" も参照してみてください｡ またここにない話でも､slackの過去ログを掘ると解決策があるかもしれません｡
 
 ## all.jsが無いと怒られる
 
@@ -21,13 +20,13 @@ brew install Graphviz
 bundle exec erd
 ```
 
-これで､er図がpdf出力されます｡(productionに必要ないデータなので､gitにかからないようにしておきましょう)
+これで､er図がpdf出力されます｡\(productionに必要ないデータなので､gitにかからないようにしておきましょう\)
 
 ## データベースの内容をリセットしたい
 
 下記コマンドで、サンプルデータの再投入をためしてみてください
 
-```
+```text
 bundle exec rake db:migrate:reset
 bundle exec rails db:seed
 bundle exec rails spree_sample:load
@@ -37,7 +36,7 @@ bundle exec rails spree_sample:load
 
 solidusが持っているモデルやコントローラーをオーバーライドする方法はこちらによくまとまっています｡
 
-http://qiita.com/yuskamiya/items/32f383cb8d18ceb751d7
+[http://qiita.com/yuskamiya/items/32f383cb8d18ceb751d7](http://qiita.com/yuskamiya/items/32f383cb8d18ceb751d7)
 
 solidusを分析する方法については､ "[ソースコードリーディングを進めるコツ](https://bitbucket.org/potepancamp/potepanec/wiki/行き詰まったら)をまとめましたので､そちらも参照してみてください｡
 
@@ -53,3 +52,4 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 でキーを生成しましょう｡
+
