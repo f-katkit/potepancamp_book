@@ -20,7 +20,6 @@
   * [課題１６](ke-ti/ke-ti-14.md)
   * [課題１７](ke-ti/ke-ti-15.md)
   * [課題１８](ke-ti/ke-ti-16.md)
-  * [課題１９](ke-ti/ke-ti-17.md)
   * [課題２０](ke-ti/ke-ti-18.md)
 * [行き詰まったら](kimattara.md)
 * [ＦＡＱ](undefined.md)
