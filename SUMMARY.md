@@ -2,7 +2,7 @@
 
 * [はじめに](README.md)
 * [ポテパンキャンプへようこそ！](potepankyanpuheyoukoso.md)
-* 課題
+* [課題](ke-ti/README.md)
   * [課題２](ke-ti/ke-ti.md)
   * [課題３](ke-ti/ke-ti-1.md)
   * [課題４](ke-ti/ke-ti-2.md)
