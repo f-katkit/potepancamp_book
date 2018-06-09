@@ -12,6 +12,14 @@ description: 少しのことにも、先達はあらまほしき事なり。
 
 potepanec プロジェクトにはすでに `rails-erd` という gem が導入されています。この gem を使って、Solidus 全体の ER図を出力してみましょう。
 
+下準備として、Rails アプリケーションの設定を変える必要があります。`config/environments/development.rb` から `config.eager_load` の行を探して、値を true に変更しましょう。
+
+```ruby
+config.eager_load = true
+```
+
+設定が終わったら、`rails-erd` が依存している `Graphviz` をインストールし、ER図の出力コマンドを実行します。
+
 ```bash
 brew install Graphviz
 bundle exec erd --filename=tmp/erd
