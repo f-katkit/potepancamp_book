@@ -3,7 +3,7 @@
 * [はじめに](README.md)
 * [ポテパンキャンプへようこそ！](potepankyanpuheyoukoso.md)
 * [課題の前に](noni.md)
-* [海図と箱メガネを手に入れる](tomeganewonireru.md)
+* [航海に必要な道具を揃える](tomeganewonireru.md)
 * [課題](ke-ti/README.md)
   * [課題２](ke-ti/ke-ti.md)
   * [課題３](ke-ti/ke-ti-1.md)
