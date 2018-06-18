@@ -1,7 +1,3 @@
----
-description: TOPページに新着商品を表示できるようにする
----
-
 # 課題５
 
 * トップページ（`/potepan`）にテンプレート（`potepan/sample/index.html.erb`）を使用して新着商品が表示される実装をしてください

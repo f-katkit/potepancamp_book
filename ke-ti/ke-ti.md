@@ -1,7 +1,3 @@
----
-description: 商品データを商品ページで表示できるようにする
----
-
 # 課題２
 
 * 商品ページのテンプレート（`potepan/sample/single_product.html.erb`）に商品の詳細が表示されるようにしてください。

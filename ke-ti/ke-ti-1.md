@@ -1,7 +1,3 @@
----
-description: 商品データをカテゴリー別にカテゴリーページに表示できるようにする
----
-
 # 課題３
 
 * カテゴリーページのテンプレート（`potepan/sample/product_grid_left_sidebar.html.erb`）に選択したカテゴリーの商品が一覧で表示されるようにしてください。
