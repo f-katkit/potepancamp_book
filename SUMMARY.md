@@ -4,6 +4,10 @@
 * [ポテパンキャンプへようこそ！](potepankyanpuheyoukoso.md)
 * [課題の前に](noni.md)
 * [航海に必要な道具を揃える](tomeganewonireru.md)
+* [はじめてのコードレビュー](submit_your_first_pr.md)
+* [良いPR・悪いPR](pull_requests_do_and_donts.md)
+* [行き詰まったら](kimattara.md)
+* [ＦＡＱ](faq.md)
 * [課題](ke-ti/README.md)
   * [課題２](ke-ti/ke-ti.md)
   * [課題３](ke-ti/ke-ti-1.md)
@@ -23,6 +27,4 @@
   * [課題１７](ke-ti/ke-ti-15.md)
   * [課題１８](ke-ti/ke-ti-16.md)
   * [課題２０](ke-ti/ke-ti-17.md)
-* [行き詰まったら](kimattara.md)
-* [ＦＡＱ](undefined.md)
 
