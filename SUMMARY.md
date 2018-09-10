@@ -27,3 +27,4 @@
   * [課題１７](kadai/kadai-15.md)
   * [課題１８](kadai/kadai-16.md)
   * [課題２０](kadai/kadai-17.md)
+* [おすすめ図書](books.md)
