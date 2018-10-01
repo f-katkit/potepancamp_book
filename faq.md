@@ -38,7 +38,7 @@ solidusが持っているモデルやコントローラーをオーバーライ�
 
 [http://qiita.com/yuskamiya/items/32f383cb8d18ceb751d7](http://qiita.com/yuskamiya/items/32f383cb8d18ceb751d7)
 
-solidusを分析する方法については､ "[ソースコードリーディングを進めるコツ](if_you_conflict.md)をまとめましたので､そちらも参照してみてください｡
+solidusを分析する方法については､ "[ソースコードリーディングを進めるコツ](if_you_get_stuck.md)をまとめましたので､そちらも参照してみてください｡
 
 ## SSH設定について
 
