@@ -40,8 +40,8 @@ An error occurred while installing mysql2 (0.4.9), and Bundler cannot continue.
 
 まずmysqlのバージョンを確認しましょう。
 
-```
-$ brew info mysql
+```bash
+brew info mysql
 ```
 
 冒頭の数行の中に、brew installされているバージョンが並びます。
@@ -60,7 +60,7 @@ $ brew info mysql
 
 * DBを全削除しますので、**他の仕事などでmysqlを使っている場合、大事なデータが削除されます。** 注意してください。
 
-```
+```bash
 brew services stop mysql # 起動していた場合止めておく（失敗した場合は無視して続行）
 brew uninstall mysql # mysqlをアンインストールする
 brew uninstall mysql@5.7 # もしこのバージョンも入っているようならいったん削除
@@ -93,7 +93,7 @@ Ruby on Rails Tutorialにも[出ていますが](https://railstutorial.jp/chapte
 
 下記コマンドで、サンプルデータの再投入をためしてみてください
 
-```text
+```bash
 bundle exec rake db:drop
 bundle exec rails g spree:install
 ```
@@ -101,8 +101,8 @@ bundle exec rails g spree:install
 ## solidusのバージョンを確認したい
 Gemfile(Gemfile.lock)を見るのが早いですが、gemコマンドも使えます。
 
-```
-$ gem list | grep solidus # solidusのバージョンが出る
+```bash
+gem list | grep solidus # solidusのバージョンが出る
 ```
 
 ## モデルやコントローラーをチューニングしたい （例 scopeを使いたい等）
