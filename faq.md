@@ -41,7 +41,14 @@ An error occurred while installing mysql2 (0.4.9), and Bundler cannot continue.
 まずmysqlのバージョンを確認しましょう。
 
 ```
-$ mysql --version
+$ brew info mysql
+```
+
+冒頭の数行の中に、brew installされているバージョンが並びます。
+アスタリスク（*）がついている行を確認すると、現在のバージョン番号が読み取れます。
+
+```
+/usr/local/Cellar/mysql/5.7.19 (322 files, 233MB) *
 ```
 
 5.7が入っていれば大丈夫ですので、この先に進まないでください。
@@ -59,8 +66,8 @@ brew uninstall mysql # mysqlをアンインストールする
 brew uninstall mysql@5.7 # もしこのバージョンも入っているようならいったん削除
 sudo rm -rf /usr/local/var/mysql/ # mysqlの持っていたdbを全削除
 brew install mysql@5.7 # mysql5.7を導入
-brew link mysql --force # フォースリンク
-brew services start mysql@5.7
+brew link mysql@5.7 --force # フォースリンク
+brew services start mysql
 ```
 
 これでbunde installが通れば成功です。
