@@ -40,8 +40,15 @@ An error occurred while installing mysql2 (0.4.9), and Bundler cannot continue.
 
 まずmysqlのバージョンを確認しましょう。
 
+```bash
+brew info mysql
 ```
-$ mysql --version
+
+冒頭の数行の中に、brew installされているバージョンが並びます。
+アスタリスク（*）がついている行を確認すると、現在のバージョン番号が読み取れます。
+
+```
+/usr/local/Cellar/mysql/5.7.19 (322 files, 233MB) *
 ```
 
 5.7が入っていれば大丈夫ですので、この先に進まないでください。
@@ -53,14 +60,14 @@ $ mysql --version
 
 * DBを全削除しますので、**他の仕事などでmysqlを使っている場合、大事なデータが削除されます。** 注意してください。
 
-```
+```bash
 brew services stop mysql # 起動していた場合止めておく（失敗した場合は無視して続行）
 brew uninstall mysql # mysqlをアンインストールする
 brew uninstall mysql@5.7 # もしこのバージョンも入っているようならいったん削除
 sudo rm -rf /usr/local/var/mysql/ # mysqlの持っていたdbを全削除
 brew install mysql@5.7 # mysql5.7を導入
-brew link mysql --force # フォースリンク
-brew services start mysql@5.7
+brew link mysql@5.7 --force # フォースリンク
+brew services start mysql
 ```
 
 これでbunde installが通れば成功です。
@@ -86,7 +93,7 @@ Ruby on Rails Tutorialにも[出ていますが](https://railstutorial.jp/chapte
 
 下記コマンドで、サンプルデータの再投入をためしてみてください
 
-```text
+```bash
 bundle exec rake db:drop
 bundle exec rails g spree:install
 ```
@@ -94,8 +101,8 @@ bundle exec rails g spree:install
 ## solidusのバージョンを確認したい
 Gemfile(Gemfile.lock)を見るのが早いですが、gemコマンドも使えます。
 
-```
-$ gem list | grep solidus # solidusのバージョンが出る
+```bash
+gem list | grep solidus # solidusのバージョンが出る
 ```
 
 ## モデルやコントローラーをチューニングしたい （例 scopeを使いたい等）
