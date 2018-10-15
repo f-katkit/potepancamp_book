@@ -37,7 +37,6 @@ _講師陣からのお願い：slack と gitbucket のアカウント名を一�
 
 下記メールアドレスに対して権限をあたえてください （READでよい）
 
-* motchang@gmail.com
 * fursich0@gmail.com
 * hachihachi.8og@gmail.com
 * kujasho@gmail.com
@@ -80,15 +79,14 @@ git管理されているRailsのアプリ上だと、多少のことをやった
 * 【重要】マージ先を共有レポジトリにしない
   * 自分のリポジトリのmasterブランチへマージをかけるようにしてください
 * レビュアーを指定
-  * 対象は､`kouji okamoto` と `koji onishi` と `palm sakamoto` `atsushisaito`でお願いします｡
+  * 対象は､ `koji onishi` と `palm sakamoto` `atsushisaito`でお願いします｡
 * もしできれば･･
   * ｢説明｣のところに下記の情報があるとレビューで答えやすい感じです｡
     * チケット番号と概要
     * とくに見て欲しいポイントがあれば
     * 相談したいこと（とりあえず実装したけど､もっといい方法はないのか･･等）
     * 工夫した点
-* `#potepancamp`チャネルに､作成したプルリクのアドレスを加えて､@kouji.okamotoと､@kojiにメンションしてください｡
-* なるべく数日中に見ます｡週末が近いとキャンプで直接フィードバックをもらうことになる確率が高いので､お早めにドゾー｡
+* `#potepancamp`チャネルに､作成したプルリクのアドレスを加えて発言してください｡slack にいる bot が自動でプルリクエストのレビュー順に加えていきます。
 
 ### つまったら
 
