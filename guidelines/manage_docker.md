@@ -98,6 +98,7 @@ docker-compose down --rmi all -v
 imageやvolume network などをまとめて初期化したい場合は以下のコマンドを入力します
 
 ```bash
+docker-compose down
 docker system prune --volumes
 ```
 
