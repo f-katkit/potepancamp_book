@@ -27,7 +27,7 @@ bundle exec tmp/erd
 これで､er図がpdf出力されます｡\(productionに必要ないデータなので､gitにかからないようにしておきましょう\)
 
 詳しくは[航海に必要な道具を揃える](prepare.md)を見てみましょう。
-Docker環境であれば[Dockerを使いこなそう#ER図の作成](./guidelines/manage_docker.md)も併せて見ておきましょう
+Docker環境であれば[Dockerを使いこなそう](./guidelines/manage_docker.md#er図の作成)も併せて見ておきましょう
 
 ### bundle installで失敗する
 

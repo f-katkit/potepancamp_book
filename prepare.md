@@ -8,7 +8,7 @@
 
 potepanec プロジェクトにはすでに `rails-erd` という gem が導入されています。この gem を使って、Solidus 全体の ER図を出力してみましょう。
 
-Docker環境であれば[Dockerを使いこなそう#ER図の作成](./guidelines/manage_docker.md)も併せて見ておきましょう
+Docker環境であれば[Dockerを使いこなそう](./guidelines/manage_docker.md#er図の作成)も併せて見ておきましょう。
 
 下準備として、Rails アプリケーションの設定を変える必要があります。`config/environments/development.rb` から `config.eager_load` の行を探して、値を true に変更しましょう。
 

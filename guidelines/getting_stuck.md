@@ -53,7 +53,7 @@
   `bundle open` を使うと導入済みのgemのソースコードを見ることができます｡  
 
   特にsolidusを見る場合は､`solidus-core`, `solidus-frontend`, `solidus-backend`のいずれかをopenするといいでしょう｡  
-  Docker開発環境の場合は[Dockerを使いこなそう#gemのソースコードを見る](./guidelines/manage_docker.md)も併せて見ておきましょう
+  Docker開発環境の場合は[Dockerを使いこなそう](./manage_docker.md#gemのソースコードを見る)も併せて見ておきましょう
 
 
 3. pryを使う
@@ -65,7 +65,7 @@
   あるメソッドが一体どのgemで定義されているのかわからない時や、モジュールの定義場所を知りたい時にも、これらの武器が役に立つでしょう。
 
   また、どうしようもなくなったら､コード中に `binding.pry`を埋め込んで､実行中の動きを追いかけるのも手です｡  
-  Dockerを利用した環境の場合は [Dockerを使いこなそう#ブレークポイントで停止しているコンテナへのattach](./guidelines/manage_docker.md)も参照しておきましょう。
+  Dockerを利用した環境の場合は [Dockerを使いこなそう](./manage_docker.md#ブレークポイントで停止しているコンテナへのattach)も参照しておきましょう。
 
 #### トラブルはチャンス
 
