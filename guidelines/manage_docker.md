@@ -147,7 +147,9 @@ Docker開発環境ではホスト端末のエディタでrailsコンテナ内に
   docker cp  \
     potepanec_potepanec_1:$(docker-compose exec potepanec \
                             bundle show solidus_core --paths | \
-                            grep /potepanec/ |tr -d '\r\n') \
+                            grep /potepanec/ | \
+                            head -1 | \
+                            tr -d '\r\n') \
     tmp/
 ```
     コピーしたソースコードをご利用のエディタで参照してみましょう。
