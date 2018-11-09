@@ -53,7 +53,7 @@
   `bundle open` を使うと導入済みのgemのソースコードを見ることができます｡  
 
   特にsolidusを見る場合は､`solidus-core`, `solidus-frontend`, `solidus-backend`のいずれかをopenするといいでしょう｡  
-  Docker開発環境の場合は[Dockerを使いこなそう#gemのソースコードを見る](./guidelines/manage_docker.md)も合わせて見ておきましょう
+  Docker開発環境の場合は[Dockerを使いこなそう#gemのソースコードを見る](./guidelines/manage_docker.md)も併せて見ておきましょう
 
 
 3. pryを使う
