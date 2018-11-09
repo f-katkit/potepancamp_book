@@ -142,14 +142,16 @@ Docker開発環境ではホスト端末のエディタでrailsコンテナ内に
 
  A. 参照したいgemのソースをホスト側にコピーして参照する
     以下のコマンドで対象のgemを `tmp` 以下にコピーします。
-    ```
-    # solidus_coreをコピーする場合
-      docker cp  \
-        potepanec_potepanec_1:$(docker-compose exec potepanec \
-                                bundle show solidus_core --paths | \
-                                grep /potepanec/ |tr -d '\r\n') \
-        tmp/
-    ```
+
+```bash
+# solidus_coreをコピーする場合
+  docker cp  \
+    potepanec_potepanec_1:$(docker-compose exec potepanec \
+                            bundle show solidus_core --paths | \
+                            grep /potepanec/ |tr -d '\r\n') \
+    tmp/
+```
+    コピーしたソースコードをご利用のエディタで参照してみましょう。
 
  B. コンテナ内でCUIエディタで `bundle open`を利用する
    vimやnano、emacsのようなCUIエディタをコンテナ内にインストールして `bundle open` を利用します。
