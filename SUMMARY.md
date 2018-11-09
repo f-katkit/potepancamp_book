@@ -10,6 +10,7 @@
   * [これだけは守ろう](guidelines/pr_do_and_donts.md)
   * [リンターを導入しよう](guidelines/linter_is_your_ally.md)
   * [テストを書こう](guidelines/write_tests.md)
+  * [Dockerを使いこなそう](guidelines/manage_docker.md)
   * [最高のPRをたてる](guidelines/brush_up_your_pr.md)
   * [行き詰まったら](guidelines/getting_stuck.md)
 * [ＦＡＱ](faq.md)
