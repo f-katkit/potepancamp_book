@@ -137,3 +137,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 でキーを生成しましょう｡
+
+## docker-compose upでサーバが起動しない
+
+以下の操作をして起動するか確認してみてください。
+
+- `docker-compose down` でコンテナを削除してみる
+- `rm -rf vendor/bundle/ node_modules/` でファイルを削除してみる
+
+それでも起動しない場合は[docker環境をリセット](./guidelines/manage_docker.md#全てのイメージ、ネットワーク、ボリュームを初期化する)してみましょう
