@@ -61,7 +61,6 @@ docker-compose ps
 docker-compose exec potepanec [コマンド]
 ```
 
-
 例
 ```bash
 docker-compose exec potepanec bundle exec rubocop
