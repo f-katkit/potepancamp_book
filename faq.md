@@ -9,6 +9,10 @@
 ```ruby
 bundle exec rake db:migrate:reset
 bundle exec rails g spree:install # ここが失敗するとall.jsが導入されない
+
+# Docker環境であれば
+docker-compose exec bundle exec rake db:migrate:reset
+docker-compose exec potepanec bundle exec rails g spree:install
 ```
 
 ### テーブル構造を図示したい
@@ -17,12 +21,13 @@ bundle exec rails g spree:install # ここが失敗するとall.jsが導入さ�
 
 ```ruby
 brew install Graphviz
-bundle exec erd
+bundle exec tmp/erd
 ```
 
 これで､er図がpdf出力されます｡\(productionに必要ないデータなので､gitにかからないようにしておきましょう\)
 
 詳しくは[航海に必要な道具を揃える](prepare.md)を見てみましょう。
+Docker環境であれば[Dockerを使いこなそう](./guidelines/manage_docker.md)も合わせて見ておきましょう
 
 ### bundle installで失敗する
 
@@ -96,6 +101,10 @@ Ruby on Rails Tutorialにも[出ていますが](https://railstutorial.jp/chapte
 ```bash
 bundle exec rake db:drop
 bundle exec rails g spree:install
+
+# Docker環境であれば
+docker-compose exec potepanec bundle exec rake db:drop
+docker-compose exec potepanec bundle exec rails g spree:install
 ```
 
 ## solidusのバージョンを確認したい
@@ -103,6 +112,9 @@ Gemfile(Gemfile.lock)を見るのが早いですが、gemコマンドも使え�
 
 ```bash
 gem list | grep solidus # solidusのバージョンが出る
+
+# Docker環境であれば
+docker-compose exec potepanec gem list | grep solidus
 ```
 
 ## モデルやコントローラーをチューニングしたい （例 scopeを使いたい等）

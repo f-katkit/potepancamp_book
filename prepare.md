@@ -8,6 +8,8 @@
 
 potepanec プロジェクトにはすでに `rails-erd` という gem が導入されています。この gem を使って、Solidus 全体の ER図を出力してみましょう。
 
+Docker環境であれば[Dockerを使いこなそう#ER図の作成](./guidelines/manage_docker.md)も併せて見ておきましょう
+
 下準備として、Rails アプリケーションの設定を変える必要があります。`config/environments/development.rb` から `config.eager_load` の行を探して、値を true に変更しましょう。
 
 ```ruby
@@ -52,7 +54,7 @@ CUIのコマンドからエディタを起動するため、以下の設定を .
 Vim の場合
 
 ```bash
-export EDTOR=vi
+export EDITOR=vi
 ```
 
 Atom の場合
@@ -142,4 +144,3 @@ bundle open solidus_core
 ```
 
 また、他の solidus\_backend や solidus\_frontend のソースコードもぜひ読んでください！
-
